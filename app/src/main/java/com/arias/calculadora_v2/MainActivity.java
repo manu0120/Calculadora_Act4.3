@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Asignar a cada variable definida el control que se ha diseñado anteriormente:
+        //Asignar a cada variable definida el control que se ha diseñado anteriormente
         btnSumar = (ImageView) findViewById(R.id.ivMas);
         btnRestar = (ImageView) findViewById(R.id.ivMenos);
         btnMultiplicar = (ImageView) findViewById(R.id.ivPor);
